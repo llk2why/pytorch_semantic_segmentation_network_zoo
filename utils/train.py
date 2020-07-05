@@ -51,6 +51,8 @@ def train(cfg,net):
     input_transform = cfg['input_transform']
     target_transform = cfg['target_transform']
     model_name = net.__class__.__name__
+    if len(cfg['gpu_ids']) > 1:
+        model_name = net.module.__class__.__name__
 
     current_time = datetime.datetime.now()
     logger_file = os.path.join('log',mode,'{} {} lr {} bs {} ep {}.log'.
@@ -129,7 +131,7 @@ def train(cfg,net):
 
                 pbar.update(imgs.shape[0])
                 iter_num += 1
-                if iter_num % (train_batch_num//10) == 0:
+                if iter_num % (train_batch_num//2) == 0:
                     val_score = eval(cfg,net,val_loader,device)
 
                     if cfg['class_num']>1:
