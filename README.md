@@ -17,7 +17,7 @@ Model files of the following models with a tick can be found in the directory "m
 - [ ] PSPNet
 
 ## LOSS
-The following losses may not be implemented in the codes, and they are listed to give a better 
+The following losses may not be implemented in the codes, and they are listed to give a better diagram for common segmentation loss functions.
 
 ### Dice Loss
 
