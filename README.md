@@ -20,18 +20,21 @@ Model files of the following models with a tick can be found in the directory "m
 The following losses may not be implemented in the codes, and they are listed to give a better 
 
 ### Dice Loss
-#### **Dice Coefficent**
+
+#### **Dice Coefficent** 
 
 <div align=center>
 <img src="https://latex.codecogs.com/gif.latex?DSC(A,B)=\frac{2|A\cap&space;B|}{|A|&plus;|B|}" 
 title="DSC(A,B)=\frac{2|A\cap B|}{|A|+|B|}" /> 
 </div>
-#### **Dice Loss**
+
+#### **Dice Loss** 
 
 <div align=center>
 <img src="https://latex.codecogs.com/gif.latex?d&space;=&space;1-DSC&space;=&space;1&space;-&space;\frac{2|A\cap&space;B|}{|A|&plus;|B|}" title="d = 1-DSC = 1 - \frac{2|A\cap B|}{|A|+|B|}" />
 </div>
-#### **Laplace Smoothing**
+
+#### **Laplace Smoothing** 
 
 <div align=center>
 <img src="https://latex.codecogs.com/gif.latex?L_s&space;=&space;1-\frac{2|A\cap&space;B|&plus;1}{|A|&plus;|B|&plus;1}" title="L_s = 1-\frac{2|A\cap B|+1}{|A|+|B|+1}" />
