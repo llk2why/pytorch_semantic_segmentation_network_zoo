@@ -4,6 +4,18 @@
 This repository is organized for the purpose to gather classic  sematic segmentation models and provides a unified framework to train&test models, and each model is pluggable so that it's easy to "plug" in or out a specific model .  Many models are borrowed from other repositories, and there are some modifications for better readability. It is assumed that each image has three channels.
 
 
+## Segmantation Models
+Model files of the following models with a tick can be found in the directory "models":
+
+- [ ] FCN: Full Convolutional Network
+- [x] U-Net
+- [x] SegNet 
+- [x] DeepLab v1
+- [x] DeepLab v2
+- [x] DeepLab v3
+- [x] DeepLab v3 plus (Resnet Backbone)
+- [ ] PSPNet
+
 ## LOSS
 The following losses may not be implemented in the codes, and they are listed to give a better 
 
