@@ -41,11 +41,6 @@ title="DSC(A,B)=\frac{2|A\cap B|}{|A|+|B|}" />
 </div>
 
 
-Benefits:
-1. In case both $|A|$ and $|B|$ equal to 0, divided by zero,
-2. Alleviate overfitting
-
-
 ### IOU LOSS
 <div align=center>
 <img src="https://latex.codecogs.com/gif.latex?IOU(A,B)=\frac{|A\cap&space;B|}{|A\cup&space;B|}" title="IOU(A,B)=\frac{|A\cap B|}{|A\cup B|}" />
