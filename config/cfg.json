@@ -1,0 +1,10 @@
+{
+    "class_num":2,
+    "weight":[0.5,0.5],
+    "train_img_dir":"data/yao/train/imgs",
+    "train_mask_dir":"data/yao/train/masks",
+    "test_img_dir":"data/yao/test/imgs",
+    "test_mask_dir":"data/yao/test/masks",
+    "output_dir":"output/",
+    "checkpoint_dir":"checkpoints"
+}

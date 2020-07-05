@@ -1,0 +1,8 @@
+*.pyc
+*__pycache__*
+log
+data/*
+checkpoints*
+backup*
+*output*
+json*
