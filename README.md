@@ -2,7 +2,7 @@
 ## Dice Loss
 **Dice Coefficent**
 
-<img src="https://latex.codecogs.com/gif.latex?DSC(A,B)=\frac{2|A\cap&space;B|}{|A|&plus;|B|}" title="DSC(A,B)=\frac{2|A\cap B|}{|A|+|B|}" align=right />\\ 
+<img src="https://latex.codecogs.com/gif.latex?DSC(A,B)=\frac{2|A\cap&space;B|}{|A|&plus;|B|}" title="DSC(A,B)=\frac{2|A\cap B|}{|A|+|B|}" align=right /> \\ 
 
 
 **Dice Loss**
