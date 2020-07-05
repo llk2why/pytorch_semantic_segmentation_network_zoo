@@ -1,5 +1,3 @@
-
-
 # Pytorch Semantic Segment Model Zoo
 
 ## Brief Introduction
